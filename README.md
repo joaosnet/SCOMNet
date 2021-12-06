@@ -31,15 +31,15 @@ The following open source packages are used in this project:
  <!-- PREPROCESSING -->
 <h2 id="preprocessing"> :hammer: Preprocessing</h2>
 
-Os dados recebidos dos sensores de movimento estão no formato: x, y, z, tela. Onde x, y, z é a posição do dispositivo móvel de acordo com os 3 eixos e a tela é o jogo que foi gravado, por exemplo, SpeedyGame.
+Os dados dos sensores de movimento estão no formato: x, y, z, tela. Onde x, y, z é a posição do dispositivo móvel de acordo com os 3 eixos e a tela é o jogo que foi gravado.
 O conjunto de dados para cada usuário consiste em arquivos JSON. Cada arquivo JSON também é um registro de data / hora, durante o qual os dados foram coletados.
 
-Desse modo os dados coletados pelos sensores estão relacionados a uma dimensão temporal, assim uma se utiliza uma técnica de janelamento para segmentar a série temporal bruta e extrair recursos de cada segmento.
+Desse modo os dados coletados pelos sensores estão relacionados a uma dimensão temporal, assim  se utiliza uma técnica de janelamento para segmentar a série temporal bruta e extrair recursos de cada segmento.
 
 <!-- PRE-PROCESSED DATA -->
 <h2 id="preprocessed-data"> :diamond_shape_with_a_dot_inside: Pre-processed data</h2>
 
-
+O conjunto de dados foi segmentado usando um tamanho de janela de considerando 200 pontos de dados sem sobreposição.
 
 <!-- RESULTS AND DISCUSSION -->
 <h2 id="results-and-discussion"> :mag: Results and Discussion</h2>
