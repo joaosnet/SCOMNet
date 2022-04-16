@@ -39,7 +39,7 @@ Desse modo os dados coletados pelos sensores estão relacionados a uma dimensão
 <!-- PRE-PROCESSED DATA -->
 <h2 id="preprocessed-data"> :diamond_shape_with_a_dot_inside: Pre-processed data</h2>
 
-O conjunto de dados foi segmentado usando um tamanho de janela de considerando 200 pontos de dados sem sobreposição.
+The dataset was segmented using a window size of considering 200 non-overlapping data points.
 
 <!-- RESULTS AND DISCUSSION -->
 <h2 id="results-and-discussion"> :mag: Results and Discussion</h2>
